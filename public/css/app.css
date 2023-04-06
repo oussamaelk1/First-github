@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family:Sans-serif;
+}
+/*Header*/
+a.nav-link.fw-bold.text-dark {
+    margin-right: 32px;
+}
+a.nav-link.dropdown-toggle.fw-bold.text-dark {
+    margin-right: 32px;
+}
+
+a.contactez-nous.text-decoration-none.text-dark.fw-bold {
+    padding: 22px 30px 22px 30px;
+}
+
+
+a.contactez-nous.text-decoration-none.text-dark.fw-bold:hover {
+    background-color: purple;
+    transition: .2s;
+}
+
+img.fra {
+    width: 23px;
+}
+
+.images .img-box {
+    background-image: url(../imgs/1679930273757.jpg);
+    background-repeat: no-repeat;
+    object-fit: cover;
+    position: relative;
+    width: 100%;
+    height: 700px;
+}
+
+.images .img-box:before{
+    content: '';
+    background-color: #000;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.images .img-text{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: white;
+    
+}
+.images .img-btn{
+    margin-top: 60px;
+    padding: 10px 30px 10px 30px;
+    background-color: purple;
+    border: none;
+    color: white;
+}
+.section .title {
+    text-align: center;
+}
+.section .title span{
+    color: purple;
+}
+.section .title h1{
+    margin-top: 50px;
+    margin-bottom: 90px;
+}
