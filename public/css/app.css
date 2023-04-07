@@ -5,6 +5,10 @@
 }
 body{
     font-family:Sans-serif;
+    height: 5000px;
+}
+a{
+    text-decoration: none;
 }
 /*Header*/
 a.nav-link.fw-bold.text-dark {
@@ -70,3 +74,72 @@ img.fra {
     margin-top: 50px;
     margin-bottom: 90px;
 }
+
+/*Cards*//*
+.sect-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px ;
+}
+
+.card1:hover {
+    background-color: #c206c2;
+    padding: 50px;
+}
+.card2:hover{
+    background-color: #c206c2;
+    padding: 50px;
+}
+.card3:hover{
+    background-color: #c206c2;
+    padding: 50px;
+}
+
+.sect-card .btn{
+    background-color: purple;
+    border-style: none;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,10px);
+}
+.sect-card .card,.card2,.card3 {
+    border-style: none;
+    background: none;
+}*/
+
+
+/*card*/
+.sect-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 90px;
+    
+}
+.sect-card h1{
+    padding: 15px
+}
+.sect-card  a{
+    text-decoration: none;
+    background-color: purple;
+    padding: 12px 30px 12px 30px;
+    color: white;
+    box-shadow: 5px 5px 5px #00000091;
+}
+
+.card-1:hover{
+    background-color: #944d9e;
+    padding: 20px 20px 80px 20px;
+}
+.card-2:hover{
+    background-color: #944d9e;
+    padding: 20px 20px 80px 20px;
+}
+.card-3:hover{
+    background-color: #944d9e;
+    padding: 20px 20px 80px 20px;
+}
+
